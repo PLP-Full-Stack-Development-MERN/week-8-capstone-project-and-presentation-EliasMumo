@@ -1,147 +1,69 @@
-**Week 8: Capstone Project - Building Your Final MERN Application**
+# Welcome to your Lovable project
 
-**Objective:**
+## Project info
 
-- Apply your knowledge of the MERN stack to build a full-fledged application.
-- Demonstrate your understanding of project planning, architecture, and deployment.
-- Develop a comprehensive portfolio project to showcase your skills.
+**URL**: https://lovable.dev/projects/adf46a8a-8e35-43a9-a4f7-bd23aae171ed
 
-**Project Overview:**
+## How can I edit this code?
 
-Your task is to design, architect, and present a full-stack MERN application of your choice. This final project should reflect the culmination of all concepts learned throughout the course, including front-end and back-end integration, authentication, CRUD operations, and deployment.
+There are several ways of editing your application.
 
-**Guidelines:**
+**Use Lovable**
 
-### 1. **Project Selection**
-Choose a project idea that aligns with your interests and skills. Some examples include:
+Simply visit the [Lovable Project](https://lovable.dev/projects/adf46a8a-8e35-43a9-a4f7-bd23aae171ed) and start prompting.
 
-- **E-commerce Store** – Users can browse products, add items to the cart, and checkout.
-- **Task Management App** – Users can create, edit, and organize their tasks.
-- **Social Media Platform** – Users can post content, comment, and interact with others.
-- **Portfolio Website** – Showcase your projects, experience, and skills.
+Changes made via Lovable will be committed automatically to this repo.
 
-**Pro Tip:** Choose a project that highlights your unique strengths and interests.
+**Use your preferred IDE**
 
----
+If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
 
-### 2. **Project Planning**
+The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
-**Deliverables:**
+Follow these steps:
 
-- **Project Proposal:**
-  - Define the problem you are solving.
-  - Identify key features.
-  - Outline the expected user journey.
-  
-- **Wireframes & UI Designs:**
-  - Use tools like Figma or Canva to visualize your application.
-  - Ensure intuitive navigation and responsive design.
+```sh
+# Step 1: Clone the repository using the project's Git URL.
+git clone <YOUR_GIT_URL>
 
-- **Technical Requirements:**
-  - Define the database schema (collections and relationships).
-  - Identify third-party services (e.g., Stripe for payments, Firebase for authentication).
+# Step 2: Navigate to the project directory.
+cd <YOUR_PROJECT_NAME>
 
----
+# Step 3: Install the necessary dependencies.
+npm i
 
-### 3. **Project Architecture**
-
-**Suggested Folder Structure:**
-```
-mern-capstone/
-│-- backend/
-│   ├── models/
-│   ├── routes/
-│   ├── controllers/
-│   ├── server.js
-│-- frontend/
-│   ├── src/
-│   │   ├── components/
-│   │   ├── pages/
-│   │   ├── App.js
-│-- README.md
+# Step 4: Start the development server with auto-reloading and an instant preview.
+npm run dev
 ```
 
-**Essential Features to Implement:**
+**Edit a file directly in GitHub**
 
-- **Backend:**
-  - RESTful API with Express.js.
-  - MongoDB database schema design.
-  - JWT-based authentication.
-  - CRUD operations for core resources.
+- Navigate to the desired file(s).
+- Click the "Edit" button (pencil icon) at the top right of the file view.
+- Make your changes and commit the changes.
 
-- **Frontend:**
-  - Responsive React UI.
-  - State management (React Context/Redux).
-  - API consumption using Axios.
-  - Routing with React Router.
+**Use GitHub Codespaces**
 
----
+- Navigate to the main page of your repository.
+- Click on the "Code" button (green button) near the top right.
+- Select the "Codespaces" tab.
+- Click on "New codespace" to launch a new Codespace environment.
+- Edit files directly within the Codespace and commit and push your changes once you're done.
 
-### 4. **Implementation Timeline**
+## What technologies are used for this project?
 
-| Milestone             | Description                            | Suggested Timeframe |
-|----------------------|----------------------------------------|---------------------|
-| Project Setup         | Initialize the project, install dependencies | 1 Day               |
-| Backend Development  | API development and database setup    | 3 Days              |
-| Frontend Development | UI implementation and API integration | 3 Days              |
-| Testing & Debugging  | Unit and integration tests            | 2 Days              |
-| Deployment           | Deploy app on Vercel/Render           | 1 Day                |
+This project is built with .
 
----
+- Vite
+- TypeScript
+- React
+- shadcn-ui
+- Tailwind CSS
 
-### 5. **Deployment**
+## How can I deploy this project?
 
-**Steps for Deployment:**
+Simply open [Lovable](https://lovable.dev/projects/adf46a8a-8e35-43a9-a4f7-bd23aae171ed) and click on Share -> Publish.
 
-- Deploy the backend on **Render** or **Heroku** with environment variables.
-- Deploy the frontend on **Vercel** or **Netlify**.
-- Test the live app and ensure all features work correctly.
+## I want to use a custom domain - is that possible?
 
-**Required Links:**
-
-- Live application URL.
-- GitHub repository URL (frontend and backend).
-
----
-
-### 6. **Presentation and Documentation**
-
-**Deliverables:**
-
-1. **README.md file** should include:
-   - Project overview.
-   - Features list.
-   - Installation and usage guide.
-   - API documentation (if applicable).
-   - Screenshots of the project.
-
-2. **Presentation**
-   - 5-minute walkthrough of your project.
-   - Explain the problem, solution, and key features.
-   - Discuss challenges faced and future improvements.
-
-**Recommended Tools:**
-
-- Google Slides for presentation.
-- Loom for screen recording.
-
----
-
-### 7. **Evaluation Criteria**
-
-Your final project will be evaluated based on the following:
-
-- **Functionality (30%)** – Does the application meet its intended purpose?
-- **Code Quality (20%)** – Is the code well-structured and maintainable?
-- **UI/UX (20%)** – Is the app visually appealing and user-friendly?
-- **Documentation (15%)** – Is the project well-documented?
-- **Presentation (15%)** – Is the project presented effectively?
-
----
-
-### 8. **Submission**
-
-- Push your code to your GitHub repository.
-- Submit your GitHub and live project links.
-
----
+We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
