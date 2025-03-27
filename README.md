@@ -1,69 +1,100 @@
-# Welcome to your Lovable project
 
-## Project info
+# Task Manager Application
+
+A modern, responsive task management application built with React that helps users organize, prioritize, and track their tasks effectively.
+
+## Live Demo
 
 **URL**: https://lovable.dev/projects/adf46a8a-8e35-43a9-a4f7-bd23aae171ed
 
-## How can I edit this code?
+## Features
 
-There are several ways of editing your application.
+- **User Authentication**: Secure login and registration system
+- **Task Management**: Create, edit, and delete tasks
+- **Kanban Board**: Organize tasks in a visual To-Do, In Progress, and Completed columns
+- **Drag & Drop**: Intuitively move tasks between status columns
+- **Task Prioritization**: Set Low, Medium, or High priorities for your tasks
+- **Due Dates**: Assign and track deadlines for better time management
+- **Responsive Design**: Works seamlessly on desktop and mobile devices
 
-**Use Lovable**
+## Technologies Used
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/adf46a8a-8e35-43a9-a4f7-bd23aae171ed) and start prompting.
+- **Frontend**: React, TypeScript, React Router DOM
+- **State Management**: React Context API
+- **UI Components**: shadcn/ui component library
+- **Styling**: Tailwind CSS for modern, responsive design
+- **Data Fetching**: TanStack React Query
 
-Changes made via Lovable will be committed automatically to this repo.
+## Getting Started
 
-**Use your preferred IDE**
+### Prerequisites
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
+### Installation
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
+# Step 1: Clone the repository
 git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
+# Step 2: Navigate to the project directory
 cd <YOUR_PROJECT_NAME>
 
-# Step 3: Install the necessary dependencies.
-npm i
+# Step 3: Install dependencies
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Step 4: Start the development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+## Usage Guide
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+1. **Registration/Login**: Create a new account or login with demo credentials
+   - Demo Email: test@example.com
+   - Demo Password: password123
 
-**Use GitHub Codespaces**
+2. **Dashboard**: View your tasks organized by status (To-Do, In Progress, Completed)
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+3. **Creating Tasks**: Click the "Add Task" button to create a new task with title, description, priority, and due date
 
-## What technologies are used for this project?
+4. **Managing Tasks**: Drag and drop tasks between columns to update their status, or edit/delete tasks using the task card options
 
-This project is built with .
+## Project Structure
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+```
+src/
+├── components/         # Reusable UI components
+├── context/            # React Context for state management
+├── hooks/              # Custom React hooks
+├── pages/              # Main application pages
+├── lib/                # Utility functions and helpers
+└── index.css           # Global styles
+```
 
-## How can I deploy this project?
+## Deployment
 
-Simply open [Lovable](https://lovable.dev/projects/adf46a8a-8e35-43a9-a4f7-bd23aae171ed) and click on Share -> Publish.
+This project can be deployed using the built-in deployment feature in Lovable:
+1. Open [Lovable](https://lovable.dev/projects/adf46a8a-8e35-43a9-a4f7-bd23aae171ed) 
+2. Click on Share -> Publish
 
-## I want to use a custom domain - is that possible?
+## Custom Domain Setup
 
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+To use a custom domain with your application, refer to the [Custom domains documentation](https://docs.lovable.dev/tips-tricks/custom-domain/)
+
+## Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Acknowledgments
+
+- Built with [Vite](https://vitejs.dev/)
+- UI components from [shadcn/ui](https://ui.shadcn.com/)
+- Icons from [Lucide Icons](https://lucide.dev/)
