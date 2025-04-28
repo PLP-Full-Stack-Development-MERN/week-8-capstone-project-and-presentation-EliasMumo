@@ -1,5 +1,72 @@
+# MERN Stack Project
 
-# Task Manager Application
+This is a full-stack application built with:
+- Frontend: Vite + React + TypeScript + Tailwind CSS
+- Backend: Express.js + MongoDB + Mongoose
+
+## Setup Instructions
+
+1. Clone the repository
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Create a `.env` file in the `backend` directory with the following variables:
+   ```
+   MONGODB_URI=mongodb://localhost:27017/mern-app
+   PORT=5000
+   ```
+
+4. Make sure MongoDB is running on your system
+
+## Running the Application
+
+### Development Mode
+
+To run both frontend and backend concurrently:
+```bash
+npm run dev:full
+```
+
+This will start:
+- Frontend on http://localhost:5173
+- Backend on http://localhost:5000
+
+### Running Separately
+
+Frontend only:
+```bash
+npm run dev
+```
+
+Backend only:
+```bash
+npm run server
+```
+
+## API Endpoints
+
+### Examples
+- GET /api/examples - Get all examples
+- POST /api/examples - Create a new example
+
+## Project Structure
+
+```
+/
+├── backend/
+│   ├── server.js
+│   ├── routes/
+│   │   └── example.js
+│   └── controllers/
+│       └── exampleController.js
+├── src/
+│   └── ... (frontend code)
+└── package.json
+```
+
+## Task Manager Application
 
 A modern, responsive task management application built with React that helps users organize, prioritize, and track their tasks effectively.
 
